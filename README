@@ -1,0 +1,32 @@
+### Sample Crawler
+
+This is the code for crawling IMDB Top 250 page, and Individual Movie page.
+
+It extracts the details of Top 250 movies, goes into each movie page,
+and extracts the actor names.
+
+### Run locally
+
+- Install dependencies
+
+```bash
+pip3 install -r requirements.txt
+```
+
+- To get top movies
+
+```bash
+python3 getTopMovies.py
+```
+
+- To get actor names in movie Gran Torino
+
+```bash
+python3 getActorsInMovie.py
+```
+
+- To find top actors
+
+```bash
+python3 findTopActors.py
+```
